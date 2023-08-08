@@ -1,0 +1,26 @@
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: 'Roboto Mono', monospace;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}

@@ -1,0 +1,23 @@
+.sidebar {
+  max-width: 296px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+.nav-link {
+  position: relative;
+  &.active {
+    color: #198754;
+  }
+  &.active::after {
+      content: '';
+      position: absolute;
+      left: -8px;
+      width: 3px;
+      height: 100%;
+      background-color: #198754;
+    }
+}
+
