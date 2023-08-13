@@ -1,0 +1,63 @@
+<div
+  class="collapse position-absolute bottom-0 end-0 z-2 w-100 collapse-textarea"
+  id="collapseTextarea"
+>
+  <div class="card">
+    <div class="card-herer d-flex p-3 bg-light">
+      <select
+        class="form-select border-0 me-4 bg-light"
+        style="width: 120px"
+        aria-label="Default select example"
+      >
+        <option selected>Body Text</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
+      <ul class="d-flex ">
+        <li class="d-flex align-items-center me-4">
+          <span class="material-icons">format_bold</span>
+        </li>
+        <li class="d-flex align-items-center me-4">
+          <span class="material-icons">format_italic</span>
+        </li>
+        <li class="d-flex align-items-center me-4">
+          <span class="material-icons">grading</span>
+        </li>
+        <li class="d-flex align-items-center me-4">
+          <span class="material-icons">edit</span>
+        </li>
+        <li class="d-flex align-items-center me-4">
+          <span class="material-icons">attachment</span>
+        </li>
+        <li class="d-flex align-items-center">
+          <span class="material-icons">chevron_left</span
+          ><span class="material-icons">chevron_right</span>
+        </li>
+      </ul>
+    </div>
+    <div class="card-body">
+      <form action="">
+        <textarea
+          class="form-control border-0 p-2"
+          id="exampleFormControlTextarea1"
+          rows="8"
+          placeholder="Reply an Answer..."
+        ></textarea>
+      </form>
+      <div class="d-flex justify-content-end mt-2">
+        <button
+          class="btn btn-outline-success me-3 px-5"
+          data-bs-toggle="collapse"
+          id="collapseTextarea_controll_2"
+          data-bs-target="#collapseTextarea"
+          aria-controls="#collapseTextarea"
+          aria-expanded="false"
+        >
+          Cancel
+        </button>
+        <button class="btn btn-success px-5">Reply</button>
+      </div>
+    </div>
+  </div>
+</div>

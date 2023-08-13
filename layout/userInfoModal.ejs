@@ -1,0 +1,52 @@
+<div
+  class="modal fade"
+  id="userInfoModal"
+  tabindex="-1"
+  aria-labelledby="UserInfoModal"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content p-5">
+      <div class="modal-body d-flex p-0">
+        <div class="flex-shrink-1">
+          <img
+            class="user_info_avatar"
+            src="/assets/images/emir.jpeg"
+            alt="Avatar"
+          />
+        </div>
+        <div class="flex-grow-1 ms-3">
+          <p>#1</p>
+          <p>Admin</p>
+          <p class="fs-5 fw-bolder">Emir Wicks</p>
+          <p class="sup-text-2 mb-3">emir.wicks@mail.com</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <button class="btn fs-7">Verified</button>
+            <a
+              class="btn"
+              data-bs-toggle="collapse"
+              href="#collapseModalFooter"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseModalFooter"
+            >
+              <span class="material-icons text-success">expand_more</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="collapse" id="collapseModalFooter">
+        <div class="d-flex justify-content-end pt-3">
+          <button
+            type="button"
+            class="btn btn-outline-danger me-3"
+            data-bs-dismiss="modal"
+          >
+            Deactivate
+          </button>
+          <button type="button" class="btn btn-success">Edit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

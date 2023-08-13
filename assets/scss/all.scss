@@ -1,8 +1,13 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import '/node_modules/bootstrap/scss/bootstrap';
+
+
+
 @import './base/reset';
 @import './base/base';
-@import './vendors';
 
-@import './utils/variables';
 @import './utils/common';
 
 @import './layout/sidebar';
+@import './layout/userInfoModal';
